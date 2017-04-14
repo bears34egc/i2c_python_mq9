@@ -1,2 +1,1 @@
-# Add any python pip install dependencies here.
-pip install pushbullet.py
+pushbullet.py
