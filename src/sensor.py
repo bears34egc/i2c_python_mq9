@@ -16,7 +16,7 @@ pb = Pushbullet('o.EZiuid3oCjU9aUM153BRs41bHYglKNee')
 
 # busNumber = int(os.getenv("I2C_BUS"))
 
-bus = smbus.SMBus(0)
+bus = smbus.SMBus(1)
 sleep(.3)
 bus.write_byte(0x48, 0)
 
